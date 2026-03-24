@@ -1,0 +1,91 @@
+body {
+    margin: 50%;
+    background-color: black;
+}
+
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorcaja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+
+    margin: 50px;
+}
+
+.Escritura {
+    margin-top: 10px;
+}
+
+
+.A {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.B {
+    margin: 0;
+}
+
+
+.contenedorcajapost {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedorcajaposttitulo {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.contenedorcajapostfecha {
+    display: flex;
+    margin-right: 20px;
+    font-size: 150%;
+}
+
+
+.Footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 450px;
+    font-size: 150%;
+
+}
+
+.FootersIcono {
+    display: flex;
+    margin-left: 5%;
+}
+
+.descripcion {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+
+
+
+
+span{
+font-weight: bold;
+margin-left: 3px;
+margin-right: 3px;
+
+}
+
